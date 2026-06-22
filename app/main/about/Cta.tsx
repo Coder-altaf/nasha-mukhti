@@ -9,7 +9,7 @@ export default function CTA() {
         </p>
 
         <a
-          href="tel:+919876543210"
+          href="tel:+919239003081"
           className="inline-block bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-full font-semibold transition"
         >
           📞 अभी कॉल करें

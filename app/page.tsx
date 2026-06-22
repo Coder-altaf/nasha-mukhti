@@ -10,13 +10,13 @@ import WhyChooseUs from "./components/WhyChooseUs";
 
 export default function Home() {
   return (
-    <>
+    <main className="pt-20">
       <Hero />
       <WhyChooseUs />
-      <MedicalProblems/>
+      <MedicalProblems />
       <Consultation />
-      <HelpSection/>
-       <TrustSection />
-    </>
+      <HelpSection />
+      <TrustSection />
+    </main>
   );
 }

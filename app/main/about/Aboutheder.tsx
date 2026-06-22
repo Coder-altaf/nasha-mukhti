@@ -38,7 +38,7 @@ export default function HeroSection() {
             </button>
 
             <a
-              href="tel:+919876543210"
+              href="tel:+919239003081"
               className="border border-white/30 hover:bg-white/10 transition-all duration-300 px-8 py-4 rounded-full font-semibold text-lg text-center"
             >
               📞 24×7 हेल्पलाइन

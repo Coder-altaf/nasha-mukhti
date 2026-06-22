@@ -6,17 +6,15 @@ import TreatmentHero from "./TreatmentHero";
 import TypesOfAddiction from "./TypOfAdiction";
 import Proses from "./proses";
 
-
 export default function Home() {
   return (
-    <>
-          <TreatmentHero/>
-          <AlcoholAddiction />
-          <TypesOfAddiction />
-          <Symptoms />
-          <TreatmentPrograms />
-          <Proses/>
-      
-    </>
+    <main className="pt-20 min-h-screen bg-slate-50">
+      <TreatmentHero />
+      <AlcoholAddiction />
+      <TypesOfAddiction />
+      <Symptoms />
+      <TreatmentPrograms />
+      <Proses />
+    </main>
   );
 }
