@@ -9,7 +9,7 @@ export default function AboutIntro() {
         />
 
         <div>
-          <p className="text-blue-600 font-semibold mb-3">हमारे बारे में</p>
+          <p className="text-blue-600 font-semibold mb-3">न्यू टर्निंग पॉइंट</p>
 
           <h2 className="text-4xl font-bold text-gray-900 mb-6">
             नशे से मुक्ति, बेहतर जीवन की शुरुआत

@@ -1,6 +1,6 @@
 export default function MissionVision() {
   return (
-    <section className="py-20 px-6 bg-slate-50">
+    <section className="py-20 pt-5 px-6 bg-white">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8">
         <div className="bg-white p-8 rounded-3xl shadow-md">
           <h3 className="text-2xl font-bold text-blue-600 mb-4">हमारा मिशन</h3>

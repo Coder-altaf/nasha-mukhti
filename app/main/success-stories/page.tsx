@@ -1,19 +1,27 @@
+import TestimonialCard from "../../components/TestimonialCard";
+
 export default function SuccessStories() {
   const stories = [
     {
       name: "Rahul",
-      summary:
-        "Alcohol se chutkara paya aur ab family ke saath ek naya zindagi jee raha hai.",
+      location: "Ramgarh",
+      image: "/images.jpg",
+      quote:
+        "Main yahan aaya, treatment liya aur apni family ke saath phir se khushnaseeb zindagi jee raha hoon. Staff bahut supportive tha.",
     },
     {
       name: "Sunil",
-      summary:
-        "Drug addiction ka ilaaj paane ke baad ab vah apni daily life mein confident mehsoos karta hai.",
+      location: "Bokaro",
+      image: "/images.jpg",
+      quote:
+        "Therapy aur counseling ne mujhe nayi direction di — aaj main confident hoon aur kaam par wapas gaya hoon.",
     },
     {
       name: "Amit",
-      summary:
-        "Professional counseling aur medical support ke sath recovery ka safar asaan laga.",
+      location: "Dhanbad",
+      image: "/images.jpg",
+      quote:
+        "Detox aur continuous follow-up se recovery manageable bana. Doctors aur counsellors ka shukriya.",
     },
   ];
 
@@ -35,15 +43,13 @@ export default function SuccessStories() {
 
         <div className="grid gap-8 md:grid-cols-3">
           {stories.map((story) => (
-            <article
+            <TestimonialCard
               key={story.name}
-              className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm"
-            >
-              <div className="mb-4 text-sm uppercase tracking-[0.24em] text-blue-600 font-semibold">
-                {story.name}
-              </div>
-              <p className="text-gray-700 leading-7">{story.summary}</p>
-            </article>
+              name={story.name}
+              location={story.location}
+              image={story.image}
+              quote={story.quote}
+            />
           ))}
         </div>
 
@@ -57,7 +63,8 @@ export default function SuccessStories() {
           <div className="mt-8 flex flex-col sm:flex-row items-center gap-4">
             <a
               href="tel:+919239003081"
-              className="inline-flex items-center justify-center rounded-full bg-white px-8 py-4 text-slate-950 font-semibold shadow-md hover:bg-slate-100 transition"
+              style={{ color: "#000" }}
+              className="inline-flex items-center justify-center rounded-full bg-white px-8 py-4 font-semibold shadow-md"
             >
               Call Now: 9239003081
             </a>

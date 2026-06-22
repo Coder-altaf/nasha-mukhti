@@ -55,7 +55,7 @@ export default function TreatmentHero() {
           </div>
 
           {/* Quick Stats */}
-          <div className="flex flex-wrap gap-6 text-sm md:text-base text-gray-300">
+          <div className="flex flex-wrap gap-6 text-sm md:text-base text-gray-300 mb-5">
             <span>✓ 100% Confidential Care</span>
             <span>✓ Expert Counsellors</span>
             <span>✓ Personalized Recovery Plans</span>

@@ -9,8 +9,7 @@ export default function ConsultationBanner() {
             {/* Left Content */}
             <div className="text-white">
               <h2 className="text-3xl md:text-5xl font-bold leading-tight">
-                नित्यान्श वेलफेयर ट्रस्ट के विशेषज्ञों से आसान ऑनलाइन परामर्श
-              </h2>
+                न्यू टर्निंग पॉइंट के विशेषज्ञों से आसान ऑनलाइन परामर्श              </h2>
 
               <p className="mt-6 text-lg text-slate-200 leading-relaxed">
                 अब घर बैठे हमारे डॉक्टरों और काउंसलर्स से जुड़ें। गोपनीय, पेशेवर

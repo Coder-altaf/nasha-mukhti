@@ -40,7 +40,7 @@ const bottomCards = [
 
 export default function HelpSection() {
   return (
-    <section className="bg-slate-50 py-16">
+    <section className="bg-slate-50 py-8">
       <div className="max-w-7xl mx-auto px-6">
         {/* Heading */}
         <div className="text-center">

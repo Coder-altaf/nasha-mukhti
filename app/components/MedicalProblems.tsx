@@ -38,7 +38,7 @@ const problems = [
 
 export default function MedicalProblems() {
   return (
-    <section className="bg-[#f7f6f2] py-20 px-6">
+    <section className="bg-[#f7f6f2] py-20 pt-5 px-6">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-14">

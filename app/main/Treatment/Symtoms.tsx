@@ -43,7 +43,7 @@ export default function Symptoms() {
         <div className="relative">
           <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
             <Image
-              src="/images/symptoms.jpg"
+              src="/symp.jpeg"
               alt="Addiction Warning Signs"
               fill
               className="object-cover"
